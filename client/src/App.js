@@ -16,7 +16,6 @@ import setAuthToken from "./utils/setAuthToken";
 import { loadUser } from "./actions/auth";
 import { Provider } from "react-redux";
 
-
 const App = () => {
   useEffect(() => {
     // check for token in LS
